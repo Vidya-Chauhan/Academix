@@ -1,0 +1,574 @@
+[
+  {
+    "title": "Journey Beyond Time",
+    "author": "Haruto Tanaka",
+    "genre": "Science Fiction",
+    "totalCopies": 2,
+    "isbn": [
+      "9780000000000",
+      "9780000000001"
+    ]
+  },
+  {
+    "title": "Echoes of Eternity",
+    "author": "Haruto Tanaka",
+    "genre": "Thriller",
+    "totalCopies": 2,
+    "isbn": [
+      "9780000000002",
+      "9780000000003"
+    ]
+  },
+  {
+    "title": "Journey Beyond Time",
+    "author": "Charles N. Frost",
+    "genre": "Adventure",
+    "totalCopies": 2,
+    "isbn": [
+      "9780000000004",
+      "9780000000005"
+    ]
+  },
+  {
+    "title": "Twilight Siege",
+    "author": "Charles N. Frost",
+    "genre": "Biography",
+    "totalCopies": 5,
+    "isbn": [
+      "9780000000006",
+      "9780000000007",
+      "9780000000008",
+      "9780000000009",
+      "9780000000010"
+    ]
+  },
+  {
+    "title": "Embers of Hope",
+    "author": "Isla McBride",
+    "genre": "Horror",
+    "totalCopies": 5,
+    "isbn": [
+      "9780000000011",
+      "9780000000012",
+      "9780000000013",
+      "9780000000014",
+      "9780000000015"
+    ]
+  },
+  {
+    "title": "The Shadow's Edge",
+    "author": "Isla McBride",
+    "genre": "Biography",
+    "totalCopies": 3,
+    "isbn": [
+      "9780000000016",
+      "9780000000017",
+      "9780000000018"
+    ]
+  },
+  {
+    "title": "Echoes of Eternity",
+    "author": "Haruto Tanaka",
+    "genre": "Horror",
+    "totalCopies": 5,
+    "isbn": [
+      "9780000000019",
+      "9780000000020",
+      "9780000000021",
+      "9780000000022",
+      "9780000000023"
+    ]
+  },
+  {
+    "title": "Fractured Destiny",
+    "author": "Beatrice Holloway",
+    "genre": "Adventure",
+    "totalCopies": 4,
+    "isbn": [
+      "9780000000024",
+      "9780000000025",
+      "9780000000026",
+      "9780000000027"
+    ]
+  },
+  {
+    "title": "Embers of Hope",
+    "author": "Haruto Tanaka",
+    "genre": "Horror",
+    "totalCopies": 4,
+    "isbn": [
+      "9780000000028",
+      "9780000000029",
+      "9780000000030",
+      "9780000000031"
+    ]
+  },
+  {
+    "title": "Whispers in the Wind",
+    "author": "Beatrice Holloway",
+    "genre": "Mystery",
+    "totalCopies": 4,
+    "isbn": [
+      "9780000000032",
+      "9780000000033",
+      "9780000000034",
+      "9780000000035"
+    ]
+  },
+  {
+    "title": "Guardians of the Light",
+    "author": "F. T. Emerson",
+    "genre": "Philosophy",
+    "totalCopies": 4,
+    "isbn": [
+      "9780000000036",
+      "9780000000037",
+      "9780000000038",
+      "9780000000039"
+    ]
+  },
+  {
+    "title": "Whispers in the Wind",
+    "author": "Charles N. Frost",
+    "genre": "Horror",
+    "totalCopies": 3,
+    "isbn": [
+      "9780000000040",
+      "9780000000041",
+      "9780000000042"
+    ]
+  },
+  {
+    "title": "The Shadow's Edge",
+    "author": "D. R. Kingsley",
+    "genre": "Philosophy",
+    "totalCopies": 5,
+    "isbn": [
+      "9780000000043",
+      "9780000000044",
+      "9780000000045",
+      "9780000000046",
+      "9780000000047"
+    ]
+  },
+  {
+    "title": "Embers of Hope",
+    "author": "Elena Marquez",
+    "genre": "Science Fiction",
+    "totalCopies": 5,
+    "isbn": [
+      "9780000000048",
+      "9780000000049",
+      "9780000000050",
+      "9780000000051",
+      "9780000000052"
+    ]
+  },
+  {
+    "title": "Crimson Dawn",
+    "author": "Haruto Tanaka",
+    "genre": "Philosophy",
+    "totalCopies": 2,
+    "isbn": [
+      "9780000000053",
+      "9780000000054"
+    ]
+  },
+  {
+    "title": "Echoes of Eternity",
+    "author": "Gina Caldwell",
+    "genre": "Historical Fiction",
+    "totalCopies": 2,
+    "isbn": [
+      "9780000000055",
+      "9780000000056"
+    ]
+  },
+  {
+    "title": "Journey Beyond Time",
+    "author": "Isla McBride",
+    "genre": "Historical Fiction",
+    "totalCopies": 4,
+    "isbn": [
+      "9780000000057",
+      "9780000000058",
+      "9780000000059",
+      "9780000000060"
+    ]
+  },
+  {
+    "title": "Echoes of Eternity",
+    "author": "Haruto Tanaka",
+    "genre": "Historical Fiction",
+    "totalCopies": 5,
+    "isbn": [
+      "9780000000061",
+      "9780000000062",
+      "9780000000063",
+      "9780000000064",
+      "9780000000065"
+    ]
+  },
+  {
+    "title": "Journey Beyond Time",
+    "author": "J. Q. Valen",
+    "genre": "Fantasy",
+    "totalCopies": 2,
+    "isbn": [
+      "9780000000066",
+      "9780000000067"
+    ]
+  },
+  {
+    "title": "Fractured Destiny",
+    "author": "J. Q. Valen",
+    "genre": "Science Fiction",
+    "totalCopies": 5,
+    "isbn": [
+      "9780000000068",
+      "9780000000069",
+      "9780000000070",
+      "9780000000071",
+      "9780000000072"
+    ]
+  },
+  {
+    "title": "Guardians of the Light",
+    "author": "D. R. Kingsley",
+    "genre": "Mystery",
+    "totalCopies": 2,
+    "isbn": [
+      "9780000000073",
+      "9780000000074"
+    ]
+  },
+  {
+    "title": "The Shadow's Edge",
+    "author": "A. K. Simmons",
+    "genre": "Mystery",
+    "totalCopies": 2,
+    "isbn": [
+      "9780000000075",
+      "9780000000076"
+    ]
+  },
+  {
+    "title": "Fractured Destiny",
+    "author": "Charles N. Frost",
+    "genre": "Historical Fiction",
+    "totalCopies": 3,
+    "isbn": [
+      "9780000000077",
+      "9780000000078",
+      "9780000000079"
+    ]
+  },
+  {
+    "title": "Echoes of Eternity",
+    "author": "D. R. Kingsley",
+    "genre": "Science Fiction",
+    "totalCopies": 3,
+    "isbn": [
+      "9780000000080",
+      "9780000000081",
+      "9780000000082"
+    ]
+  },
+  {
+    "title": "The Shadow's Edge",
+    "author": "Beatrice Holloway",
+    "genre": "Fantasy",
+    "totalCopies": 3,
+    "isbn": [
+      "9780000000083",
+      "9780000000084",
+      "9780000000085"
+    ]
+  },
+  {
+    "title": "Guardians of the Light",
+    "author": "F. T. Emerson",
+    "genre": "Fantasy",
+    "totalCopies": 5,
+    "isbn": [
+      "9780000000086",
+      "9780000000087",
+      "9780000000088",
+      "9780000000089",
+      "9780000000090"
+    ]
+  },
+  {
+    "title": "Journey Beyond Time",
+    "author": "Charles N. Frost",
+    "genre": "Thriller",
+    "totalCopies": 5,
+    "isbn": [
+      "9780000000091",
+      "9780000000092",
+      "9780000000093",
+      "9780000000094",
+      "9780000000095"
+    ]
+  },
+  {
+    "title": "Embers of Hope",
+    "author": "Charles N. Frost",
+    "genre": "Biography",
+    "totalCopies": 2,
+    "isbn": [
+      "9780000000096",
+      "9780000000097"
+    ]
+  },
+  {
+    "title": "Fractured Destiny",
+    "author": "Isla McBride",
+    "genre": "Horror",
+    "totalCopies": 3,
+    "isbn": [
+      "9780000000098",
+      "9780000000099",
+      "9780000000100"
+    ]
+  },
+  {
+    "title": "Embers of Hope",
+    "author": "F. T. Emerson",
+    "genre": "Romance",
+    "totalCopies": 3,
+    "isbn": [
+      "9780000000101",
+      "9780000000102",
+      "9780000000103"
+    ]
+  },
+  {
+    "title": "The Shadow's Edge",
+    "author": "D. R. Kingsley",
+    "genre": "Romance",
+    "totalCopies": 3,
+    "isbn": [
+      "9780000000104",
+      "9780000000105",
+      "9780000000106"
+    ]
+  },
+  {
+    "title": "The Forgotten Realm",
+    "author": "Beatrice Holloway",
+    "genre": "Biography",
+    "totalCopies": 3,
+    "isbn": [
+      "9780000000107",
+      "9780000000108",
+      "9780000000109"
+    ]
+  },
+  {
+    "title": "Crimson Dawn",
+    "author": "J. Q. Valen",
+    "genre": "Horror",
+    "totalCopies": 4,
+    "isbn": [
+      "9780000000110",
+      "9780000000111",
+      "9780000000112",
+      "9780000000113"
+    ]
+  },
+  {
+    "title": "Embers of Hope",
+    "author": "Isla McBride",
+    "genre": "Fantasy",
+    "totalCopies": 5,
+    "isbn": [
+      "9780000000114",
+      "9780000000115",
+      "9780000000116",
+      "9780000000117",
+      "9780000000118"
+    ]
+  },
+  {
+    "title": "The Forgotten Realm",
+    "author": "Gina Caldwell",
+    "genre": "Science Fiction",
+    "totalCopies": 3,
+    "isbn": [
+      "9780000000119",
+      "9780000000120",
+      "9780000000121"
+    ]
+  },
+  {
+    "title": "Guardians of the Light",
+    "author": "D. R. Kingsley",
+    "genre": "Thriller",
+    "totalCopies": 3,
+    "isbn": [
+      "9780000000122",
+      "9780000000123",
+      "9780000000124"
+    ]
+  },
+  {
+    "title": "Whispers in the Wind",
+    "author": "A. K. Simmons",
+    "genre": "Horror",
+    "totalCopies": 2,
+    "isbn": [
+      "9780000000125",
+      "9780000000126"
+    ]
+  },
+  {
+    "title": "Crimson Dawn",
+    "author": "D. R. Kingsley",
+    "genre": "Historical Fiction",
+    "totalCopies": 5,
+    "isbn": [
+      "9780000000127",
+      "9780000000128",
+      "9780000000129",
+      "9780000000130",
+      "9780000000131"
+    ]
+  },
+  {
+    "title": "Echoes of Eternity",
+    "author": "Haruto Tanaka",
+    "genre": "Romance",
+    "totalCopies": 3,
+    "isbn": [
+      "9780000000132",
+      "9780000000133",
+      "9780000000134"
+    ]
+  },
+  {
+    "title": "Echoes of Eternity",
+    "author": "Isla McBride",
+    "genre": "Fantasy",
+    "totalCopies": 5,
+    "isbn": [
+      "9780000000135",
+      "9780000000136",
+      "9780000000137",
+      "9780000000138",
+      "9780000000139"
+    ]
+  },
+  {
+    "title": "Guardians of the Light",
+    "author": "J. Q. Valen",
+    "genre": "Science Fiction",
+    "totalCopies": 4,
+    "isbn": [
+      "9780000000140",
+      "9780000000141",
+      "9780000000142",
+      "9780000000143"
+    ]
+  },
+  {
+    "title": "Twilight Siege",
+    "author": "Beatrice Holloway",
+    "genre": "Biography",
+    "totalCopies": 4,
+    "isbn": [
+      "9780000000144",
+      "9780000000145",
+      "9780000000146",
+      "9780000000147"
+    ]
+  },
+  {
+    "title": "Fractured Destiny",
+    "author": "D. R. Kingsley",
+    "genre": "Horror",
+    "totalCopies": 4,
+    "isbn": [
+      "9780000000148",
+      "9780000000149",
+      "9780000000150",
+      "9780000000151"
+    ]
+  },
+  {
+    "title": "Embers of Hope",
+    "author": "Gina Caldwell",
+    "genre": "Horror",
+    "totalCopies": 3,
+    "isbn": [
+      "9780000000152",
+      "9780000000153",
+      "9780000000154"
+    ]
+  },
+  {
+    "title": "Whispers in the Wind",
+    "author": "J. Q. Valen",
+    "genre": "Science Fiction",
+    "totalCopies": 5,
+    "isbn": [
+      "9780000000155",
+      "9780000000156",
+      "9780000000157",
+      "9780000000158",
+      "9780000000159"
+    ]
+  },
+  {
+    "title": "The Shadow's Edge",
+    "author": "Elena Marquez",
+    "genre": "Fantasy",
+    "totalCopies": 2,
+    "isbn": [
+      "9780000000160",
+      "9780000000161"
+    ]
+  },
+  {
+    "title": "Fractured Destiny",
+    "author": "F. T. Emerson",
+    "genre": "Biography",
+    "totalCopies": 2,
+    "isbn": [
+      "9780000000162",
+      "9780000000163"
+    ]
+  },
+  {
+    "title": "Whispers in the Wind",
+    "author": "J. Q. Valen",
+    "genre": "Philosophy",
+    "totalCopies": 4,
+    "isbn": [
+      "9780000000164",
+      "9780000000165",
+      "9780000000166",
+      "9780000000167"
+    ]
+  },
+  {
+    "title": "Fractured Destiny",
+    "author": "Beatrice Holloway",
+    "genre": "Science Fiction",
+    "totalCopies": 2,
+    "isbn": [
+      "9780000000168",
+      "9780000000169"
+    ]
+  },
+  {
+    "title": "Twilight Siege",
+    "author": "Charles N. Frost",
+    "genre": "Biography",
+    "totalCopies": 2,
+    "isbn": [
+      "9780000000170",
+      "9780000000171"
+    ]
+  }
+]
