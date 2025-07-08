@@ -1,0 +1,17 @@
+<svg width="280" height="80" viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Text: Academix -->
+  <text x="150" y="135" font-family="Segoe UI, sans-serif" font-size="80" font-weight="bold" fill="#2F4156">
+    Academix
+  </text>
+
+  <!-- Graduation Cap -->
+  <polygon points="40,70 120,40 200,70 120,100" fill="#C0D9E6"></polygon>
+  <rect x="112" y="70" width="16" height="50" fill="#2F4156"></rect>
+  <line x1="120" y1="100" x2="120" y2="130" stroke="#2F4156" stroke-width="4"></line>
+  <circle cx="120" cy="132" r="6" fill="#C0D9E6"></circle>
+
+  <!-- Slogan -->
+  <text x="152" y="165" font-family="Georgia, serif" font-size="22" fill="#576C8D" font-style="italic">
+    your own learning centre
+  </text>
+</svg>

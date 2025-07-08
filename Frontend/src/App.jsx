@@ -2,18 +2,25 @@ import React, { useState, useEffect, useMemo } from 'react';
 import "./App.css";
 import { Routes, Route, Navigate } from "react-router-dom";
 
-import Signup from "./components/Signup";
-import StudentDashboard from './components/StudentDashboard'; 
-import Login from "./components/Login";
+import Signup from "./Libcomponents/Signup";
+import StudentDashboard from './Libcomponents/StudentDashboard'; 
+import Login from "./Libcomponents/Login";
 import Home from "./pages/Home";
 import About from "./pages/About";  
-import Contact from "./pages/Contact";
-import Others from "./pages/Others";
-import AdminDashboard from "./components/AdminDashboard";
-import SearchBooks from "./components/SearchBooks";
-import StudentProfile from "./components/StudentProfile";
-import CheckDues from './components/CheckDues';
-import Books from './components/Books';
+import Contact from "./pages/Contacts";
+import Help from "./pages/Help";
+import AdminDashboard from "./Libcomponents/AdminDashboard";
+import SearchBooks from "./Libcomponents/SearchBooks";
+import StudentProfile from "./Libcomponents/StudentProfile";
+import CheckDues from './Libcomponents/CheckDues';
+import Books from './Libcomponents/Books';
+
+import BookMarket from './Sections/BookMarket';
+import Library from './Sections/Library';
+import Notes from './Sections/Notes';
+import Calendar from './Sections/Calendar';
+import LostAndFound from './Sections/LostAndFound';
+import StudentBlog from './Sections/StudentBlog';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -59,10 +66,16 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/home" element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/others" element={<Others />} />
+      <Route path="/contacts" element={<Contact />} />
+      <Route path="/help" element={<Help />} />
       <Route path="/login" element={<Login onLogin={handleLogin} />} />
       <Route path="/signup" element={<Signup />} />
+      <Route path="/BookMarket" element={<BookMarket />} />
+        <Route path="/library" element={<Library />} />
+        <Route path="/notes" element={<Notes />} />
+        <Route path="/calendar" element={<Calendar />} />
+        <Route path="/lostfound" element={<LostAndFound />} />
+        <Route path="/student-blog" element={<StudentBlog />} />
 
       {/* Protected Routes */}
       {!isAuthenticated ? (
@@ -85,10 +98,11 @@ function App() {
             <Route path="*" element={<Navigate to="search-books" />} />
           </Route>
           <Route path="*" element={<Navigate to="/student-dashboard" />} />
-        </>
-      )}
-    </Routes>
-  );
+        
+      </>
+    )}
+  </Routes>
+);
 }
 
 export default App;

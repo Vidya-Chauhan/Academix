@@ -5,8 +5,10 @@ import "aos/dist/aos.css";
 import Navbar from "../compo/Navbar";
 import Footer from "../compo/Footer";
 import bookShelves from "../assets/book-shelves.jpg";
+import { Link } from "react-router-dom";
 
-export default function About() {
+
+export default function Library() {
   useEffect(() => {
     AOS.init({ duration: 800 });
   }, []);
@@ -36,6 +38,26 @@ export default function About() {
           />
         </svg>
       </div>
+
+ {/* Login Button */}
+<div
+  className="flex justify-center items-center py-16 bg-[#F5EFE8]"
+  data-aos="zoom-in"
+>
+  <div className="backdrop-blur-md bg-white/20 border border-[#C0D9E6]/30 shadow-2xl rounded-3xl p-8 w-[320px] text-center space-y-4">
+    <h2 className="text-xl font-bold text-[#2F4156]">🔐 Members Only</h2>
+    <p className="text-[#2F4156] text-sm">
+      Login to access exclusive library content, your prifile & dues.
+    </p>
+    <Link
+      to="/login"
+      className="inline-block bg-[#2F4156] text-white px-6 py-3 rounded-full font-semibold tracking-wide shadow-md hover:bg-[#3a5770] hover:scale-105 transition-all duration-300"
+    >
+      Login Now
+    </Link>
+  </div>
+</div>
+
 
       {/* Main Content Container */}
       <div className="bg-[#F5EFE8] px-6 pt-12 pb-20 text-[#2F4156]">
