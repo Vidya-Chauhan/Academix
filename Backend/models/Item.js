@@ -5,11 +5,12 @@ const Item = new mongoose.Schema({
   description: { type: String, required: true },
   category: { type: String},
   price: { type: Number, required: true },
-  image: { type: String, required: true },
- 
+ images: { type: [String], required: true },
+
   contactInfo: { type: String, required: true },
   createdAt: { type: Date, default: Date.now },
   status: { type: String, enum: ['available', 'sold'], default: 'available' },
 
 });
-module.exports = mongoose.model('Item', Item);
+// module.exports = mongoose.model('Item', Item);
+export default mongoose.model('Item', Item);

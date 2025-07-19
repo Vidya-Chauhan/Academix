@@ -2,14 +2,15 @@ import Item from "../models/Item.js";
 
 export const postItem = async (req, res) => {
     try {
-        const { title, description, category, price, image, contactInfo } = req.body;
+        const { title, description, category, price,  contactInfo } = req.body;
+        const imagePaths = req.files.map(file => `/uploads/${file.filename}`);
 
         const newItem = new Item({
             title,
             description,
             category,
             price,
-            image,
+            images: imagePaths,
             contactInfo
         });
 

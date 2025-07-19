@@ -4,7 +4,7 @@ import { useState } from "react";
 import Navbar from "../compo/Navbar";
 import Footer from "../compo/Footer";
 
-export default function Others() {
+export default function Help() {
   const [suggestions, setSuggestions] = useState([]);
   const [formData, setFormData] = useState({ bookName: "", author: "", genre: "" });
 

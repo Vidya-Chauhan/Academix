@@ -1,51 +1,56 @@
-const connectDB = require('./config/db');
-connectDB();
+// server.js
+import dotenv from "dotenv";
+dotenv.config();
 
-require("dotenv").config();
-
-const express = require('express');
-const mongoose = require('mongoose');
-const cors = require('cors');
-const authRoutes = require('./routes/auth');
-const adminRoutes = require('./routes/adminRoutes');
-const studentRoutes = require('./routes/student');
-const bookRoutes = require('./routes/bookRoutes'); 
-
-const User = require('./models/User');
-
+import express from "express";
+import mongoose from "mongoose";
+import cors from "cors";
+import path from "path";
+import { fileURLToPath } from "url";
+import authRoutes from "./routes/auth.js";
+import adminRoutes from "./routes/adminRoutes.js";
+import studentRoutes from "./routes/student.js";
+import bookRoutes from "./routes/bookRoutes.js";
+import itemRoutes from "./routes/itemRoutes.js";
+import notesRoutes from "./routes/notesRoutes.js";
+import lostFoundRoutes from "./routes/lostFoundRoutes.js";
 
 const app = express();
-app.use(cors({
-  origin: "http://localhost:5173", 
-  credentials: true
-}));
-app.use(express.json());
+const mongoURI = process.env.MONGO_URI;
 
+// Setup __dirname equivalent in ES module
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Middleware
+app.use(cors({ origin: "http://localhost:5173", credentials: true }));
+app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use('/bookRoutes', bookRoutes); 
+app.use("/uploads", express.static("uploads"));
+
+// MongoDB connection
+mongoose
+  .connect(mongoURI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => console.log("✅ MongoDB connected"))
+  .catch((err) => console.error("❌ MongoDB connection error:", err));
 
 // Routes
-app.use('/api/auth', authRoutes);
-app.use('/admin', adminRoutes);
+app.use("/api/auth", authRoutes);
+app.use("/admin", adminRoutes);
+app.use("/student", studentRoutes);
+app.use("/bookRoutes", bookRoutes);
+app.use("/api/items", itemRoutes);
+app.use("/api/notes", notesRoutes);
+app.use("/api/lostfound", lostFoundRoutes);
 
-app.use('/student', studentRoutes);
+// Serve uploaded files
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
-app.use(express.json());
-
-// Connect to MongoDB and then create admin
-mongoose.connect(process.env.MONGO_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-})
-  .then(() => {
-    console.log('Connected to MongoDB');
-
-   
-
-    app.listen(process.env.PORT, () => {
-      console.log(`Server running on port ${process.env.PORT}`);
-    });
-  })
-  .catch(err => {
-    console.log('Failed to connect to MongoDB:', err);
-  });
+// Start server
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`✅ Server running on http://localhost:${PORT}`);
+});

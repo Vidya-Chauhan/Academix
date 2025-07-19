@@ -10,13 +10,13 @@ import { Link } from "react-router-dom";
 
 export default function Library() {
   useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" }); 
     AOS.init({ duration: 800 });
   }, []);
 
   return (
     <>
       <Navbar />
-
       {/* Hero Section with Gradient Overlay */}
       <div
         className="relative h-[60vh] bg-fixed bg-center bg-cover flex items-center justify-center text-white px-4"
